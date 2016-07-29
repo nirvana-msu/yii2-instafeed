@@ -1,0 +1,38 @@
+{
+    "name": "nirvana-msu/yii2-instafeed",
+    "description": "Yii2 extension for instafeed Instagram javascript plugin",
+    "keywords": [
+        "yii2",
+        "instafeed",
+        "widget",
+        "instagram",
+        "javascript",
+        "plugin"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/nirvana-msu/yii2-instafeed/issues",
+        "source": "https://github.com/nirvana-msu/yii2-instafeed"
+    },
+    "authors": [
+        {
+            "name": "Alexander Stepanov",
+            "email": "student_vmk@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/instafeed.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nirvana\\instafeed\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
