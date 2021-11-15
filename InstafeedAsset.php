@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class InstafeedAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/instafeed.js';
+    public $sourcePath = '@bower/instafeed.js/dist';
     public $css = [
     ];
     public $js = [  // Configured conditionally (source/minified) during init()

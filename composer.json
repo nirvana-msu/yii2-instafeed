@@ -15,6 +15,12 @@
         "issues": "https://github.com/nirvana-msu/yii2-instafeed/issues",
         "source": "https://github.com/nirvana-msu/yii2-instafeed"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "authors": [
         {
             "name": "Alexander Stepanov",
@@ -23,7 +29,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/instafeed.js": "*"
+        "bower-asset/instafeed.js": "^2"
     },
     "autoload": {
         "psr-4": {
